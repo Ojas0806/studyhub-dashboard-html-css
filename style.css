@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f6faf8;
+    color: #18352d;
+}
+
+.dashboard {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: #176b52;
+    color: white;
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    margin-bottom: 35px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+    background: white;
+    color: #176b52;
+}
+
+.logout {
+    margin-top: auto;
+}
+
+.main-content {
+    flex: 1;
+    padding: 25px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar input {
+    width: 320px;
+    padding: 12px 16px;
+    border: 1px solid #d8e5df;
+    border-radius: 10px;
+    background: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile small {
+    color: #71847d;
+}
+
+.notification {
+    color: #176b52;
+}
+
+.welcome {
+    margin: 38px 0 25px;
+}
+
+.welcome h1 {
+    font-size: 34px;
+}
+
+.welcome p {
+    color: #71847d;
+    margin-top: 6px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.card,
+.panel {
+    background: white;
+    border: 1px solid #e0ebe6;
+    border-radius: 14px;
+    padding: 22px;
+}
+
+.card strong {
+    display: block;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.card p {
+    color: #71847d;
+    margin-top: 4px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.panel h2 {
+    margin-bottom: 18px;
+}
+
+.panel p {
+    padding: 12px 0;
+    border-bottom: 1px solid #edf2ef;
+}
+
+.quote {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote h2,
+.quote p {
+    border: 0;
+    padding: 0;
+}
+
+.quote h2 {
+    color: #0f7b66;
+}
+
+.quote p {
+    color: #0f7b66;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote span {
+    font-size: 35px;
+    margin-top: 15px;
+}
