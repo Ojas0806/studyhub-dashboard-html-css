@@ -37,14 +37,28 @@ body {
 .sidebar a {
     color: white;
     text-decoration: none;
-    padding: 12px;
-    border-radius: 8px;
+    padding: 13px 14px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    font-size: 15px;
 }
+
+.sidebar nav a::before {
+    margin-right: 10px;
+}
+
+.sidebar nav a:nth-child(1)::before { content: "⌂"; }
+.sidebar nav a:nth-child(2)::before { content: "▣"; }
+.sidebar nav a:nth-child(3)::before { content: "▤"; }
+.sidebar nav a:nth-child(4)::before { content: "✓"; }
+.sidebar nav a:nth-child(5)::before { content: "□"; }
+.sidebar nav a:nth-child(6)::before { content: "●"; }
 
 .sidebar a.active,
 .sidebar a:hover {
     background: white;
     color: #176b52;
+    transform: translateX(3px);
 }
 
 .logout {
