@@ -184,3 +184,40 @@ body {
     font-size: 35px;
     margin-top: 15px;
 }
+
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(25, 75, 60, 0.08);
+}
+
+.card.blue {
+    background: #eef6ff;
+    border-color: #d9eaff;
+}
+
+.card.green {
+    background: #effaf4;
+    border-color: #d7efdf;
+}
+
+.card.orange {
+    background: #fff7e9;
+    border-color: #f5e4bf;
+}
+
+.card.blue .icon {
+    color: #176bba;
+}
+
+.card.green .icon {
+    color: #15915e;
+}
+
+.card.orange .icon {
+    color: #c66a16;
+}
