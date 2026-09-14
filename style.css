@@ -221,3 +221,42 @@ body {
 .card.orange .icon {
     color: #c66a16;
 }
+
+
+.task {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 0;
+    border-bottom: 1px solid #edf2ef;
+}
+
+.task:last-child {
+    border-bottom: 0;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #15915e;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background: #15915e;
+    flex-shrink: 0;
+}
+
+.check.empty {
+    background: white;
+}
+
+.task strong,
+.task small {
+    display: block;
+}
+
+.task small {
+    color: #71847d;
+    margin-top: 3px;
+}
