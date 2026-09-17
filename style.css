@@ -260,3 +260,94 @@ body {
     color: #71847d;
     margin-top: 3px;
 }
+
+
+@media (max-width: 900px) {
+    .sidebar {
+        width: 180px;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .sidebar h2 {
+        margin-bottom: 18px;
+    }
+
+    .sidebar nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    .sidebar a {
+        text-align: center;
+        padding: 9px 5px;
+        font-size: 13px;
+    }
+
+    .sidebar nav a::before {
+        display: none;
+    }
+
+    .logout {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 18px;
+    }
+
+    .topbar input {
+        width: 60%;
+    }
+
+    .welcome h1 {
+        font-size: 28px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .card,
+    .panel {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .topbar {
+        gap: 10px;
+    }
+
+    .profile {
+        font-size: 13px;
+    }
+
+    .profile small {
+        display: none;
+    }
+}
