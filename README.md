@@ -27,6 +27,7 @@ studyhub-dashboard/
 |-- index.html
 |-- style.css
 |-- README.md
+|-- SampleRun.md
 `-- .gitignore
 ```
 
