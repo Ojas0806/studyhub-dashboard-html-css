@@ -1,31 +1,54 @@
-# StudyHub Dashboard
+# StudyHub Dashboard — HTML & CSS
 
-A clean and beginner-friendly student dashboard built using **HTML5 and CSS3 only**.
-
-## Project Goal
-
-This project demonstrates how to create a dashboard interface without JavaScript or CSS frameworks.
+A clean, minimal and responsive student dashboard built using **HTML5 and CSS3 only**.
 
 ## Features
 
+- Responsive dashboard layout
 - Sidebar navigation
-- Search bar
-- Student profile area
-- Dashboard statistics
-- Upcoming tasks
+- Search bar and student profile area
+- Subject, notes, task and event cards
+- Upcoming task section
 - Motivational quote
-- Clean green and pastel visual style
+- Hover effects
+- Mobile-friendly responsive design
+- No JavaScript
+- No CSS frameworks
 
-## Technologies
+## Technologies Used
 
-- HTML5
-- CSS3
+- HTML5 — structure
+- CSS3 — styling and responsive design
 
-## How to View
+## Project Structure
+
+```text
+studyhub-dashboard/
+|-- index.html
+|-- style.css
+|-- README.md
+`-- .gitignore
+```
+
+## How to Run
 
 1. Download or clone the repository.
-2. Open `index.html` in a web browser.
+2. Open `index.html` in any modern web browser.
+3. Resize the browser window to see the responsive layout.
+
+## Learning Goals
+
+This project demonstrates:
+
+- Semantic HTML structure
+- CSS Flexbox and Grid
+- Cards and dashboard layouts
+- CSS hover effects
+- Media queries
+- Responsive design
+- Clean UI organization
 
 ## Project Status
 
-Built step by step as a beginner HTML and CSS project.
+Completed as a beginner-friendly HTML and CSS dashboard project.
+
